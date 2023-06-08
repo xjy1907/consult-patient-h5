@@ -8,3 +8,6 @@ const pinia = createPinia()
 pinia.use(presist)
 
 export default pinia
+
+// 在index.ts对 modules 中的仓库作统一导出
+export * from './modules/user'
